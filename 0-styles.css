@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+
+}
+
+li {
+  width: 285px;
+  height: 430px;
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  background: url('./0-sprite.png') no-repeat #F7F7F7;
+  background-size: 680px;
+  text-align: center;
+  list-style-type: none;
+  border: solid gray;
+  border-radius: 10px;
+}
+
+li:nth-child(1) {
+  background-position: 32px center;
+}
+
+li:nth-child(2) {
+  background-position: center;
+}
+
+li:nth-child(3) {
+  background-position: right 32px center;
+}
+
+
