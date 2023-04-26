@@ -1,0 +1,25 @@
+h2 {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #E31C3F;
+  position: relative;
+}
+
+a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  background: #E31C3F;
+  transition: width .4s ease;
+}
+
+a:hover::after{
+  width: 100%;
+}
